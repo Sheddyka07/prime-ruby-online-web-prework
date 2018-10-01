@@ -10,3 +10,4 @@ def prime?(n)
     end
   return true
 end   
+end 
