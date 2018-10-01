@@ -4,5 +4,5 @@ def prime?(n)
   elsif n == 2 
     return true 
   
-  
+  end
 end   
