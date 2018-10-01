@@ -1,8 +1,14 @@
-# Add  code here!
-def prime?(testNumber)
-  return false if testNumber < 2 
-  (2..Math.sqrt(testNumber)).each do |int|
-    return false if testNumber % |int| == 0 
+def prime?(n)
+  if n < 2 
+    return false 
+  elsif n == 2 
+    return true 
+  elsif for x in range (2, n)
+    if n % x == 0 
+      return true 
+    if x == n 
+      return true 
+    else
+      return false
   end
-  true
 end   
