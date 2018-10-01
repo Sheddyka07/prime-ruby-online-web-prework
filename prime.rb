@@ -7,7 +7,6 @@ def prime?(n)
     for x in (2..n)
       if n % x == 0
         return false
-    end
+    
   return true
-end   
-end 
+ end
