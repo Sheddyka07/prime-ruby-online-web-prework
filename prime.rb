@@ -5,8 +5,6 @@ def prime?(n)
     
   elsif n == 2 || 3
     return true 
-    
-  
       
   else   
     return true
