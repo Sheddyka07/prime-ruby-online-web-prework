@@ -3,6 +3,7 @@ def prime?(n)
     return false 
   elsif n == 2 || 3
     return true 
-  elsif n % 3 == 
+  elsif n % 3 == x 
+    return false
   end
 end   
